@@ -10,9 +10,8 @@ public class PermissionsExtension : Extension
         
     }
 
-    protected override Task OnRegisterAsync()
+    protected override async Task OnRegisterAsync()
     {
         this.Logger.Info("HELLO from the registered Permissions extension!");
-        return Task.CompletedTask;
     }
 }
