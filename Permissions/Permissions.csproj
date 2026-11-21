@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../OpenBot.API/OpenBot.API.csproj" />
+    <ProjectReference Include="../../OpenBot/OpenBot.API/OpenBot.API.csproj" />
   </ItemGroup>
 
 </Project>
