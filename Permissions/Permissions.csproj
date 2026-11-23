@@ -4,6 +4,11 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Version>0.1.0-beta</Version>
+    <Authors>blocksaffinity</Authors>
+    <Product>Permissions</Product>
+    <Description>Basic permissions system for OpenBot</Description>
+    <Copyright>Copyright © 2026</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

@@ -13,7 +13,7 @@ public class EventLoggerExtension : Extension
 
     protected override async Task OnRegisterAsync()
     {
-        discord = Context.Modules.Get<IDiscordModule>();
+        discord = Context.Modules.GetOrNull<IDiscordModule>();
         if (discord is null)
         {
             Logger.Error("Failed to get Discord module, cannot register events.");
